@@ -1,5 +1,5 @@
 /*conditional operators '?', ':'.
-syntax { condition1 ? expression1 : expression2 } -- if condition1 is true then expression1 is returned and if condition1 is false then expression2 will be returned*/
+syntax { condition1 ? "expression1" : "expression2" } -- if condition1 is true then expression1 is returned and if condition1 is false then expression2 will be returned*/
 
 public class CondOperators2{
 	
@@ -16,6 +16,7 @@ public class CondOperators2{
 	
 	int c = Integer.parseInt(x[0]);
 	int d = Integer.parseInt(x[1]);
+
 	String exp = c<d ? "d is greater" : "c is greater";
 	System.out.println(exp);
 	}
