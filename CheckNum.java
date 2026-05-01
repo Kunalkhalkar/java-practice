@@ -7,6 +7,7 @@ public class CheckNum{
 	public static void main(String...x) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the number");
+		
 		int a = Integer.parseInt(br.readLine());
 		
 		if(a < 0){
@@ -15,6 +16,7 @@ public class CheckNum{
 		else if (a > 0){
 			System.out.println("Number is positive");
 		}
+			
 		else{
 			System.out.println("you erntered zero");
 		}
