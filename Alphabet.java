@@ -2,7 +2,6 @@
 Question 6: Write a Java program to check whether a character is alphabetic or not.
 */
 import java.io.*;
-
 public class Alphabet{
 	public static void main(String ...x) throws Exception{
 		System.out.println("Enter the charactor");
@@ -14,6 +13,5 @@ public class Alphabet{
 		}
 		else
 			System.out.println("character is NOT Alphabetic");
-			
 	}
 }
