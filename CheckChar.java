@@ -6,8 +6,8 @@ import java.io.*;
 public class CheckChar{
 	public static void main(String ...x) throws Exception{
 		System.out.println("Enter the Charactor");
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		char ch = br.readLine().charAt(0);
 		if(ch >='0' && ch <= '9'){
 			System.out.println("charactor is digit");
