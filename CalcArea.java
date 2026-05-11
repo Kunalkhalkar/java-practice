@@ -3,7 +3,9 @@ Question 4: Write a Java program to enter length and breadth of a rectangle and 
 */
 import java.io.*;
 public class CalcArea{
+	
 	public static void main(String...x) throws Exception{
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the length of rectangle");
 		int length = Integer.parseInt(br.readLine());
