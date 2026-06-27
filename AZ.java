@@ -5,8 +5,7 @@ public class AZ{
 			do{
 				System.out.println("character = " + k);
 				k++;	
-			  } 
-				while( k<='Z');
+			  }while( k<='Z');
 	
 	}	
 		
